@@ -1,0 +1,336 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: #181818;
+  color: #eee;
+  margin: 0;
+  h1 {
+    font-weight: 300;
+  }
+  h3 {
+    font-weight: 500;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #202021;
+  box-shadow: 0 0 5px black;
+  height: 50px;
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .menu {
+    a {
+      color: #858c8c;
+    }
+
+    .signin {
+      color: white;
+      text-shadow: 0 0 1px black;
+      padding: 5px 20px;
+      background-color: #ed1c24;
+      margin: 0 0 0 20px;
+    }
+  }
+}
+
+.container {
+  /*----------------change on desktop verions----------------*/
+  width: 100%;
+
+  .hero {
+    background: white;
+    color: #333;
+    padding: 20px 20px 50px 20px;
+    text-align: center;
+
+    .slogan {
+      font-size: 25px;
+      margin: 20px 0;
+    }
+    .title {
+      margin: 20px 0;
+      font-size: 25px;
+    }
+
+    .call-to-action {
+      position: relative;
+      margin: 40px 0;
+      a {
+        position: relative;
+        padding: 12px 30px;
+        color: white;
+        transition: 0.5s;
+        background: #ed1c23;
+
+        &:hover {
+          box-shadow: 0 0 3px #ff0008e5;
+          transition: 0.5s;
+        }
+      }
+      a::before {
+        content: "";
+        position: absolute;
+        top: -6px;
+        left: -7px;
+        background: rgba(0, 0, 255, 0);
+        width: 100%;
+        height: 100%;
+
+        border: 1px solid #ed1c23e5;
+      }
+    }
+    .call-to-action::before {
+      content: "";
+      top: 0;
+      left: 0;
+      background-color: blue;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .cards-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: none;
+
+    .card {
+      width: 300px;
+      margin: 60px 80px;
+      text-align: center;
+      p {
+        color: #8c8c8c;
+      }
+      .card-title {
+        color: #f4f4f4;
+        font-size: 30px;
+        margin-bottom: -10px;
+      }
+    }
+  }
+
+  .showcase-section {
+    .first-showcase {
+      background-image: linear-gradient(to right, #0303036e, #50505010),
+        url("../img/action.jpg");
+      background-repeat: no-repeat;
+      background-position: center; /* Center the image */
+      background-size: cover;
+      height: 300px;
+      padding: 20px;
+    }
+
+    .second-showcase {
+      background-image: linear-gradient(to right, #0303036e, #50505010),
+        url("../img/nature.jpg");
+      background-repeat: no-repeat;
+      background-position: center; /* Center the image */
+      background-size: cover;
+      height: 300px;
+      padding: 20px;
+    }
+
+    .third-showcase {
+      background-image: linear-gradient(to right, #0303036e, #50505010),
+        url("../img/utuber.jpg");
+      background-repeat: no-repeat;
+      background-position: center; /* Center the image */
+      background-size: cover;
+      height: 300px;
+      padding: 20px;
+    }
+
+    .forth-showcase {
+      background-image: linear-gradient(to right, #030303, #ffffff10),
+        url("../img/phone.jpg");
+      background-repeat: no-repeat;
+      background-position: center; /* Center the image */
+      background-size: cover;
+      height: 300px;
+      padding: 20px;
+    }
+  }
+
+  .FAQ-section {
+    margin: 100px 20px;
+    width: 90%;
+
+    .card1 {
+      height: 50px;
+      transition: 0.5s;
+    }
+
+    .card2 {
+      height: 50px;
+      transition: 0.5s;
+    }
+    .card3 {
+      height: 50px;
+      transition: 0.5s;
+    }
+    .card4 {
+      height: 50px;
+      transition: 0.5s;
+    }
+
+    .FAQ-card {
+      margin: 30px 0;
+      overflow: hidden;
+
+      .card1arrowUp {
+        display: none;
+      }
+      .card2arrowUp {
+        display: none;
+      }
+      .card3arrowUp {
+        display: none;
+      }
+      .card4arrowUp {
+        display: none;
+      }
+
+      .FAQ-title {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #2a2a2a;
+        margin: 0px 0 20px 0;
+        padding: 15px 0;
+      }
+
+      .FAQ-content {
+        width: 100%;
+        color: #8c8c8c;
+      }
+    }
+  }
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.781);
+  margin-top: 100px;
+  padding: 40px;
+  font-weight: lighter;
+
+  .hassan {
+    margin: 50px 0 0 0;
+  }
+  .footer {
+    display: block;
+    text-align: center;
+  }
+  .footer-logo {
+    .fl {
+      font-size: 30px;
+      margin: 0;
+    }
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    li {
+      text-align: center;
+      padding: 0;
+    }
+  }
+  p {
+    margin: 0;
+  }
+  .col {
+    margin: 10px 0px;
+    padding: 20px 0 10px 0;
+    border-bottom: 1px solid gray;
+  }
+}
+
+/*--------------------------------------------DESKTOP VERSIONS-------------------------------*/
+@media screen and (min-width: 700px) {
+  footer {
+    background-color: rgba(0, 0, 0, 0.781);
+    margin-top: 100px;
+    padding: 40px;
+    font-weight: lighter;
+
+    .hassan {
+      margin: 50px 0 0 0;
+    }
+    .footer {
+      display: flex;
+      justify-content: space-around;
+    }
+    .footer-logo {
+      width: 250px;
+      .fl {
+        font-size: 30px;
+        margin: 0;
+      }
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      li {
+        text-align: center;
+        padding: 0;
+      }
+    }
+    p {
+      margin: 0;
+    }
+    .col {
+      margin: 10px 0px;
+      border-bottom: 0px solid gray;
+    }
+  }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+
+    .FAQ-section {
+      width: 66%;
+      margin: 150px auto 0 auto;
+    }
+  }
+
+  .showcase-section {
+    .showcase-content-right {
+      margin: 200px 50px 0 auto;
+      text-align: right;
+      width: 66%;
+    }
+    .showcase-content-left {
+      margin: 200px auto 0 50px;
+      text-align: left;
+      width: 66%;
+    }
+    .first-showcase {
+      min-height: 500px;
+    }
+    .second-showcase {
+      min-height: 500px;
+    }
+    .third-showcase {
+      min-height: 500px;
+    }
+    .forth-showcase {
+      min-height: 500px;
+    }
+  }
+}
