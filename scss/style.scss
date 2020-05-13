@@ -9,9 +9,11 @@ body {
   background: #181818;
   color: #eee;
   margin: 0;
+
   h1 {
     font-weight: 300;
   }
+
   h3 {
     font-weight: 500;
   }
@@ -59,6 +61,7 @@ nav {
       font-size: 25px;
       margin: 20px 0;
     }
+
     .title {
       margin: 20px 0;
       font-size: 25px;
@@ -67,6 +70,7 @@ nav {
     .call-to-action {
       position: relative;
       margin: 40px 0;
+
       a {
         position: relative;
         padding: 12px 30px;
@@ -79,6 +83,7 @@ nav {
           transition: 0.5s;
         }
       }
+
       a::before {
         content: "";
         position: absolute;
@@ -91,6 +96,7 @@ nav {
         border: 1px solid #ed1c23e5;
       }
     }
+
     .call-to-action::before {
       content: "";
       top: 0;
@@ -112,9 +118,11 @@ nav {
       width: 300px;
       margin: 60px 80px;
       text-align: center;
+
       p {
         color: #8c8c8c;
       }
+
       .card-title {
         color: #f4f4f4;
         font-size: 30px;
@@ -128,7 +136,8 @@ nav {
       background-image: linear-gradient(to right, #0303036e, #50505010),
         url("../img/action.jpg");
       background-repeat: no-repeat;
-      background-position: center; /* Center the image */
+      background-position: center;
+      /* Center the image */
       background-size: cover;
       height: 300px;
       padding: 20px;
@@ -138,7 +147,8 @@ nav {
       background-image: linear-gradient(to right, #0303036e, #50505010),
         url("../img/nature.jpg");
       background-repeat: no-repeat;
-      background-position: center; /* Center the image */
+      background-position: center;
+      /* Center the image */
       background-size: cover;
       height: 300px;
       padding: 20px;
@@ -148,7 +158,8 @@ nav {
       background-image: linear-gradient(to right, #0303036e, #50505010),
         url("../img/utuber.jpg");
       background-repeat: no-repeat;
-      background-position: center; /* Center the image */
+      background-position: center;
+      /* Center the image */
       background-size: cover;
       height: 300px;
       padding: 20px;
@@ -158,7 +169,8 @@ nav {
       background-image: linear-gradient(to right, #030303, #ffffff10),
         url("../img/phone.jpg");
       background-repeat: no-repeat;
-      background-position: center; /* Center the image */
+      background-position: center;
+      /* Center the image */
       background-size: cover;
       height: 300px;
       padding: 20px;
@@ -170,20 +182,22 @@ nav {
     width: 90%;
 
     .card1 {
-      height: 50px;
+      height: 60px;
       transition: 0.5s;
     }
 
     .card2 {
-      height: 50px;
+      height: 60px;
       transition: 0.5s;
     }
+
     .card3 {
-      height: 50px;
+      height: 60px;
       transition: 0.5s;
     }
+
     .card4 {
-      height: 50px;
+      height: 60px;
       transition: 0.5s;
     }
 
@@ -194,12 +208,15 @@ nav {
       .card1arrowUp {
         display: none;
       }
+
       .card2arrowUp {
         display: none;
       }
+
       .card3arrowUp {
         display: none;
       }
+
       .card4arrowUp {
         display: none;
       }
@@ -231,28 +248,34 @@ footer {
   .hassan {
     margin: 50px 0 0 0;
   }
+
   .footer {
     display: block;
     text-align: center;
   }
+
   .footer-logo {
     .fl {
       font-size: 30px;
       margin: 0;
     }
   }
+
   ul {
     margin: 0;
     padding: 0;
     text-align: center;
+
     li {
       text-align: center;
       padding: 0;
     }
   }
+
   p {
     margin: 0;
   }
+
   .col {
     margin: 10px 0px;
     padding: 20px 0 10px 0;
@@ -271,34 +294,42 @@ footer {
     .hassan {
       margin: 50px 0 0 0;
     }
+
     .footer {
       display: flex;
       justify-content: space-around;
     }
+
     .footer-logo {
       width: 250px;
+
       .fl {
         font-size: 30px;
         margin: 0;
       }
     }
+
     ul {
       margin: 0;
       padding: 0;
       text-align: center;
+
       li {
         text-align: center;
         padding: 0;
       }
     }
+
     p {
       margin: 0;
     }
+
     .col {
       margin: 10px 0px;
       border-bottom: 0px solid gray;
     }
   }
+
   .container {
     width: 90%;
     margin: 0 auto;
@@ -315,20 +346,25 @@ footer {
       text-align: right;
       width: 66%;
     }
+
     .showcase-content-left {
       margin: 200px auto 0 50px;
       text-align: left;
       width: 66%;
     }
+
     .first-showcase {
       min-height: 500px;
     }
+
     .second-showcase {
       min-height: 500px;
     }
+
     .third-showcase {
       min-height: 500px;
     }
+
     .forth-showcase {
       min-height: 500px;
     }

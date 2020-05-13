@@ -31,7 +31,7 @@ card1arrowDown.addEventListener("click", () => {
 
 card1arrowUp.addEventListener("click", () => {
   card1arrowUp.style.display = "none";
-  cardVH1.style.height = "50px";
+  cardVH1.style.height = "60px";
   cardVH1.style.transition = ".5s";
   card1arrowDown.style.display = "inline-block";
 });
@@ -46,7 +46,7 @@ card2arrowDown.addEventListener("click", () => {
 
 card2arrowUp.addEventListener("click", () => {
   card2arrowUp.style.display = "none";
-  cardVH2.style.height = "50px";
+  cardVH2.style.height = "60px";
   cardVH1.style.transition = ".5s";
   card2arrowDown.style.display = "inline-block";
 });
@@ -60,7 +60,7 @@ card3arrowDown.addEventListener("click", () => {
 
 card3arrowUp.addEventListener("click", () => {
   card3arrowUp.style.display = "none";
-  cardVH3.style.height = "50px";
+  cardVH3.style.height = "60px";
   card3arrowDown.style.display = "inline-block";
 });
 
@@ -73,6 +73,6 @@ card4arrowDown.addEventListener("click", () => {
 
 card4arrowUp.addEventListener("click", () => {
   card4arrowUp.style.display = "none";
-  cardVH4.style.height = "50px";
+  cardVH4.style.height = "60px";
   card4arrowDown.style.display = "inline-block";
 });
